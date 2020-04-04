@@ -185,6 +185,7 @@ function zip() {
     });
   });
 }
+console.log("salam");
 
 function shuffle(array) {
   var currentIndex = array.length,
