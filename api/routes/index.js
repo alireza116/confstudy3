@@ -130,7 +130,7 @@ router.get("/consent", function (req, res) {
 });
 
 router.get("/intermission", function (req, res) {
-  if (req.session.varIndex === req.session.variables.length - 1) {
+  if (req.session.varIndex === req.session.variables.length) {
     res.redirect("debrief");
   } else {
     res.render("intermission.html");
