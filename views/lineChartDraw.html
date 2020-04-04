@@ -43,6 +43,7 @@
         margin: 0 auto;
         width: 80%;
         height: 100%;
+        overflow: scroll;
       }
       .title {
         height: 15%;
@@ -52,7 +53,7 @@
         margin: 0;
       }
       .chartChoice {
-        height: 85%;
+        height: 600px;
       }
       .charts {
         height: 80%;
@@ -123,6 +124,60 @@
       #draw2 {
         font-weight: 500;
       }
+
+      .wrap {
+        font: 12px Arial, san-serif;
+        background-color: #efefef;
+      }
+      h1.likert-header {
+        padding-left: 4.25%;
+        margin: 20px 0 0;
+      }
+      form .statement {
+        display: block;
+        font-size: 14px;
+        font-weight: bold;
+        padding: 30px 0 0 4.25%;
+        margin-bottom: 10px;
+      }
+      form .likert {
+        list-style: none;
+        width: 100%;
+        margin: 0;
+        padding: 0 0 35px;
+        display: block;
+        border-bottom: 2px solid #efefef;
+      }
+      form .likert:last-of-type {
+        border-bottom: 0;
+      }
+      form .likert li {
+        display: inline-block;
+        width: 13%;
+        text-align: center;
+        vertical-align: top;
+      }
+      form .likert li input[type="radio"] {
+        display: block;
+        position: relative;
+        top: 0;
+        left: 50%;
+        margin-left: -6px;
+      }
+      form .likert li label {
+        width: 100%;
+      }
+      form .buttons {
+        margin: 30px 0;
+        padding: 0 4.25%;
+        text-align: right;
+      }
+      form .buttons button {
+        padding: 5px 10px;
+        background-color: #67ab49;
+        border: 0;
+        border-radius: 3px;
+      }
     </style>
   </head>
   <body>
@@ -154,10 +209,53 @@
           </div>
         </div>
         <hr />
+        <div class="wrap">
+          <form id="likert" action="">
+            <label class="statement"
+              >How certain are you of the above choice?</label
+            >
+            <ul class="likert">
+              <li>
+                <input
+                  type="radio"
+                  name="certainty"
+                  value="complete_uncertain"
+                />
+                <label>Completely uncertain</label>
+              </li>
+              <li>
+                <input type="radio" name="certainty" value="very_uncertain" />
+                <label>Very uncertain</label>
+              </li>
+              <li>
+                <input
+                  type="radio"
+                  name="certainty"
+                  value="slightly_uncertain"
+                />
+                <label>Slightly uncertain</label>
+              </li>
+              <li>
+                <input type="radio" name="certainty" value="neutral" />
+                <label>Neutral</label>
+              </li>
+              <li>
+                <input type="radio" name="certainty" value="slightly_certain" />
+                <label>Slightly certain</label>
+              </li>
+              <li>
+                <input type="radio" name="certainty" value="very_certain" />
+                <label>Very certain</label>
+              </li>
+              <li>
+                <input type="radio" name="certainty" value="complete_certain" />
+                <label>Completely certain</label>
+              </li>
+            </ul>
+          </form>
+        </div>
+        <hr />
         <div class="row choices">
-          <!-- <div class="col">
-            <button class="btn btn-secondary" id="repeat">Reset</button>
-          </div> -->
           <div class="col">
             <button class="btn btn-secondary" id="next">Continue</button>
           </div>
@@ -205,19 +303,28 @@
         $("#next").click(function (event) {
           event.preventDefault();
           if (uncertaintySelected & selected) {
-            $(".loader").css("display", "block");
-            $(".main").css("opacity", "0.1");
-            beliefData["startTime"] = startTime;
-            beliefData["endTime"] = Date.now();
-            $.post(
-              "/api/study",
-              (data = beliefData),
-              (success = function (d) {
-                console.log(d);
-                console.log("success");
-                window.location.assign("/next");
-              })
-            );
+            var certaintyData = $("#likert").serializeArray()[0];
+            console.log(certaintyData);
+            if (typeof certaintyData !== "undefined") {
+              $(".loader").css("display", "block");
+              $(".main").css("opacity", "0.1");
+              beliefData["startTime"] = startTime;
+              beliefData["endTime"] = Date.now();
+              beliefData["certainty"] = certaintyData["value"];
+              $.post(
+                "/api/study",
+                (data = beliefData),
+                (success = function (d) {
+                  console.log(d);
+                  console.log("success");
+                  window.location.assign("/next");
+                })
+              );
+            } else {
+              alert(
+                "please complete the likert scale form about your certainty"
+              );
+            }
           } else {
             alert("please make your choices");
           }
