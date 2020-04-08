@@ -1,0 +1,31 @@
+unit,X,Y
+Person,Daily calcium intake,Avg. resting pulse
+Person,Percent body fat,Red blood cell count
+Person,White blood cell count,IQ
+Person,No. movies attended,Amount red meat eaten
+Person,Height,College GPA
+City,Amount of rainfall,No. of sunny days
+Person,Amount of TV watched,No. of books read
+Person,No. traffic violations,Car insurance premium
+Person,Body weight,Daily caloric intake
+Person,IQ,Income
+Person,Social media use,Avg. hours of sleep
+Person,Social media use,Depression
+Country,Per capita gun ownership,Shooting-related deaths
+Year,Avg. Carbon emissions,Increase in global temperature
+Person,GPA,Post-college income
+Person,SAT score,College GPA
+Person,Years of education,Income
+Country,Domestic violence incidence,Length of quarantine
+Household,Parental income,Children's SAT scores
+Country,Meat consumption,Carbon emissions
+State,Minimum wage,Unemployment rate
+Person,prison sentence duration,Rate of violent crime
+City,poverty rate,crime rate
+Neighborhood,No. grocery stores,Median income
+Person,Hours video game per week,Violence tendency
+City,No. pedestrians,No. Violent crimes
+Country,No. religious population,racial diversity
+Country,Total homless population,Total uninsured population
+Country,Total homless population,Educational attainment 
+Country,Immigrant population,Crime rate

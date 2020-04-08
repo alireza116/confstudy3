@@ -1,0 +1,152 @@
+[
+  {
+    "unit": "Person",
+    "X": "Daily calcium intake",
+    "Y": "Avg. resting pulse"
+  },
+  {
+    "unit": "Person",
+    "X": "Percent body fat",
+    "Y": "Red blood cell count"
+  },
+  {
+    "unit": "Person",
+    "X": "White blood cell count",
+    "Y": "IQ"
+  },
+  {
+    "unit": "Person",
+    "X": "No. movies attended",
+    "Y": "Amount red meat eaten"
+  },
+  {
+    "unit": "Person",
+    "X": "Height",
+    "Y": "College GPA"
+  },
+  {
+    "unit": "City",
+    "X": "Amount of rainfall",
+    "Y": "No. of sunny days"
+  },
+  {
+    "unit": "Person",
+    "X": "Amount of TV watched",
+    "Y": "No. of books read"
+  },
+  {
+    "unit": "Person",
+    "X": "No. traffic violations",
+    "Y": "Car insurance premium"
+  },
+  {
+    "unit": "Person",
+    "X": "Body weight",
+    "Y": "Daily caloric intake"
+  },
+  {
+    "unit": "Person",
+    "X": "IQ",
+    "Y": "Income"
+  },
+  {
+    "unit": "Person",
+    "X": "Social media use",
+    "Y": "Avg. hours of sleep"
+  },
+  {
+    "unit": "Person",
+    "X": "Social media use",
+    "Y": "Depression"
+  },
+  {
+    "unit": "Country",
+    "X": "Per capita gun ownership",
+    "Y": "Shooting-related deaths"
+  },
+  {
+    "unit": "Year",
+    "X": "Avg. Carbon emissions",
+    "Y": "Increase in global temperature"
+  },
+  {
+    "unit": "Person",
+    "X": "GPA",
+    "Y": "Post-college income"
+  },
+  {
+    "unit": "Person",
+    "X": "SAT score",
+    "Y": "College GPA"
+  },
+  {
+    "unit": "Person",
+    "X": "Years of education",
+    "Y": "Income"
+  },
+  {
+    "unit": "Country",
+    "X": "Domestic violence incidence",
+    "Y": "Length of quarantine"
+  },
+  {
+    "unit": "Household",
+    "X": "Parental income",
+    "Y": "Children's SAT scores"
+  },
+  {
+    "unit": "Country",
+    "X": "Meat consumption",
+    "Y": "Carbon emissions"
+  },
+  {
+    "unit": "State",
+    "X": "Minimum wage",
+    "Y": "Unemployment rate"
+  },
+  {
+    "unit": "Person",
+    "X": "prison sentence duration",
+    "Y": "Rate of violent crime"
+  },
+  {
+    "unit": "City",
+    "X": "poverty rate",
+    "Y": "crime rate"
+  },
+  {
+    "unit": "Neighborhood",
+    "X": "No. grocery stores",
+    "Y": "Median income"
+  },
+  {
+    "unit": "Person",
+    "X": "Hours video game per week",
+    "Y": "Violence tendency"
+  },
+  {
+    "unit": "City",
+    "X": "No. pedestrians",
+    "Y": "No. Violent crimes"
+  },
+  {
+    "unit": "Country",
+    "X": "No. religious population",
+    "Y": "racial diversity"
+  },
+  {
+    "unit": "Country",
+    "X": "Total homless population",
+    "Y": "Total uninsured population"
+  },
+  {
+    "unit": "Country",
+    "X": "Total homless population",
+    "Y": "Educational attainment"
+  },
+  {
+    "unit": "Country",
+    "X": "Immigrant population",
+    "Y": "Crime rate"
+  }
+]

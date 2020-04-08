@@ -2,20 +2,24 @@ const express = require("express");
 const router = express.Router();
 const randomstring = require("randomstring");
 const mongoose = require("mongoose");
+const csv = require("csvtojson");
 // const csv = require("csv-parser");
 const fs = require("fs");
 const math = require("mathjs");
 // console.log(__dirname);
 
-let rawdata = fs.readFileSync("./public/data/finalSimData.json");
+let rawdata = fs.readFileSync("./public/data/new_variables.json");
 let jsonData = JSON.parse(rawdata);
-// console.log(jsonData);
-let dataList = Object.keys(jsonData).map(function (d) {
-  return jsonData[d];
+console.log(jsonData);
+// let dataList = Object.keys(jsonData).map(function (d) {
+//   return jsonData[d];
+// });
+// const jsonArray = await csv().fromFile("./public/data/new_variables.csv");
+// console.log(jsonArray);
+const variables = jsonData.map((d) => {
+  return [[d["X"], d["Y"]], d["unit"]];
 });
-const variables = dataList.map((d) => {
-  return [d["vars"], d["unitt"]];
-});
+console.log(variables.length);
 console.log(variables);
 const url =
   "mongodb://markant:emotion2019@ds159025.mlab.com:59025/markantstudy";

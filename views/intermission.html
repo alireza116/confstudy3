@@ -46,9 +46,9 @@
     </style>
   </head>
   <body>
-    <div style="height:100%" class="container bg-light" id="instructions">
+    <div style="height: 100%;" class="container bg-light" id="instructions">
       <div>
-        <h4>Stage <span id="varNumber">0</span> out of 10</h4>
+        <h4>Stage <span id="varNumber">0</span> out of 30</h4>
         <hr />
         <h4>Now think about the relationship between these variables:</h4>
         <h5>
@@ -65,7 +65,7 @@
     <!-- <script src="/js/article.js"></script>
 <script src="/js/study.js"></script> -->
     <script>
-      $.get("/api/data", function(data) {
+      $.get("/api/data", function (data) {
         var variables = data.vars;
         var unit = data.unit;
         $("#varX").text(variables[0]);
@@ -73,7 +73,7 @@
         $("#unit").text(unit);
         $("#varNumber").text(data.varNumber);
       });
-      $("#presubmit").click(function(event) {
+      $("#presubmit").click(function (event) {
         event.preventDefault();
         window.location.assign("/study");
       });
