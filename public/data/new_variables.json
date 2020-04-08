@@ -1,151 +1,151 @@
 [
   {
-    "unit": "Person",
+    "unit": "People",
     "X": "Daily calcium intake",
     "Y": "Avg. resting pulse"
   },
   {
-    "unit": "Person",
+    "unit": "People",
     "X": "Percent body fat",
     "Y": "Red blood cell count"
   },
   {
-    "unit": "Person",
+    "unit": "People",
     "X": "White blood cell count",
     "Y": "IQ"
   },
   {
-    "unit": "Person",
+    "unit": "People",
     "X": "No. movies attended",
     "Y": "Amount red meat eaten"
   },
   {
-    "unit": "Person",
+    "unit": "People",
     "X": "Height",
     "Y": "College GPA"
   },
   {
-    "unit": "City",
+    "unit": "Cities",
     "X": "Amount of rainfall",
     "Y": "No. of sunny days"
   },
   {
-    "unit": "Person",
+    "unit": "People",
     "X": "Amount of TV watched",
     "Y": "No. of books read"
   },
   {
-    "unit": "Person",
+    "unit": "People",
     "X": "No. traffic violations",
     "Y": "Car insurance premium"
   },
   {
-    "unit": "Person",
+    "unit": "People",
     "X": "Body weight",
     "Y": "Daily caloric intake"
   },
   {
-    "unit": "Person",
+    "unit": "People",
     "X": "IQ",
     "Y": "Income"
   },
   {
-    "unit": "Person",
+    "unit": "People",
     "X": "Social media use",
     "Y": "Avg. hours of sleep"
   },
   {
-    "unit": "Person",
+    "unit": "People",
     "X": "Social media use",
     "Y": "Depression"
   },
   {
-    "unit": "Country",
+    "unit": "Countries",
     "X": "Per capita gun ownership",
     "Y": "Shooting-related deaths"
   },
   {
-    "unit": "Year",
+    "unit": "Years",
     "X": "Avg. Carbon emissions",
     "Y": "Increase in global temperature"
   },
   {
-    "unit": "Person",
+    "unit": "People",
     "X": "GPA",
     "Y": "Post-college income"
   },
   {
-    "unit": "Person",
+    "unit": "People",
     "X": "SAT score",
     "Y": "College GPA"
   },
   {
-    "unit": "Person",
+    "unit": "People",
     "X": "Years of education",
     "Y": "Income"
   },
   {
-    "unit": "Country",
+    "unit": "Countries",
     "X": "Domestic violence incidence",
     "Y": "Length of quarantine"
   },
   {
-    "unit": "Household",
+    "unit": "Households",
     "X": "Parental income",
     "Y": "Children's SAT scores"
   },
   {
-    "unit": "Country",
+    "unit": "Countries",
     "X": "Meat consumption",
     "Y": "Carbon emissions"
   },
   {
-    "unit": "State",
+    "unit": "Countries",
     "X": "Minimum wage",
     "Y": "Unemployment rate"
   },
   {
-    "unit": "Person",
+    "unit": "People",
     "X": "prison sentence duration",
     "Y": "Rate of violent crime"
   },
   {
-    "unit": "City",
+    "unit": "Cities",
     "X": "poverty rate",
     "Y": "crime rate"
   },
   {
-    "unit": "Neighborhood",
+    "unit": "Neighborhoods",
     "X": "No. grocery stores",
     "Y": "Median income"
   },
   {
-    "unit": "Person",
+    "unit": "People",
     "X": "Hours video game per week",
     "Y": "Violence tendency"
   },
   {
-    "unit": "City",
+    "unit": "Cities",
     "X": "No. pedestrians",
     "Y": "No. Violent crimes"
   },
   {
-    "unit": "Country",
+    "unit": "Countries",
     "X": "No. religious population",
     "Y": "racial diversity"
   },
   {
-    "unit": "Country",
+    "unit": "Countries",
     "X": "Total homless population",
     "Y": "Total uninsured population"
   },
   {
-    "unit": "Country",
+    "unit": "Countries",
     "X": "Total homless population",
     "Y": "Educational attainment"
   },
   {
-    "unit": "Country",
+    "unit": "Countries",
     "X": "Immigrant population",
     "Y": "Crime rate"
   }
