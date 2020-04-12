@@ -1,0 +1,31 @@
+unit,X,Y,congrunent,uncertainty
+Person,Daily calcium intake,Avg. resting pulse,TRUE,10
+People,Percent body fat,Red blood cell count,FALSE,100
+People,White blood cell count,IQ,FALSE,100
+People,Number of movies attended,Amount red meat eaten,TRUE,100
+People,Height,College GPA,FALSE,100
+Cities,Amount of rainfall,Number of sunny days,FALSE,10
+People,Hours of TV watched in a month,Number of books read in a month,TRUE,100
+People,Number traffic violations,Car insurance premium,FALSE,100
+People,Daily caloric intake,Body weight,FALSE,10
+People,IQ,Income,TRUE,100
+People,Avg. hours on social media,Avg. hours of sleep,FALSE,10
+People,Avg. hours on social media,Depression severity,TRUE,100
+Country,Per capita gun ownership,Shooting-related deaths,TRUE,10
+Years,Annual carbon emissions,Global temperature increase,FALSE,100
+People,College GPA,Post-college income,TRUE,10
+College graduates,SAT score,College GPA,FALSE,10
+People,Years of education,Income,FALSE,100
+Countries,Immigrant population,Number of Domestic violence incidents,TRUE,100
+Household,Parental income,Children's SAT scores,FALSE,10
+Countries,Yearly meat consumption,Yearly carbon emissions,FALSE,100
+Countries,Minimum wage,Unemployment rate,TRUE,100
+People,Crime severity,Prison sentence duration,FALSE,10
+Cities,Proportion of residents in poverty,Crime rate,TRUE,10
+Cities,Median income,Number of grocery stores,FALSE,100
+People,Hours playing video games,Aggression,TRUE,10
+Cities,Number of pedestrians,No. Violent crimes,FALSE,100
+Countries,Number of religious population,racial diversity,TRUE,100
+Countries,Homeless population,Uninsured population,FALSE,100
+Countries,Homeless population,Avg. education attainment ,TRUE,10
+Countries,Immigrant population,Crime rate,FALSE,10

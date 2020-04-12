@@ -1,152 +1,212 @@
 [
   {
-    "unit": "People",
+    "unit": "Person",
     "X": "Daily calcium intake",
-    "Y": "Avg. resting pulse"
+    "Y": "Avg. resting pulse",
+    "congrunent": "TRUE",
+    "uncertainty": 10
   },
   {
     "unit": "People",
     "X": "Percent body fat",
-    "Y": "Red blood cell count"
+    "Y": "Red blood cell count",
+    "congrunent": "FALSE",
+    "uncertainty": 100
   },
   {
     "unit": "People",
     "X": "White blood cell count",
-    "Y": "IQ"
+    "Y": "IQ",
+    "congrunent": "FALSE",
+    "uncertainty": 100
   },
   {
     "unit": "People",
-    "X": "No. movies attended",
-    "Y": "Amount red meat eaten"
+    "X": "Number of movies attended",
+    "Y": "Amount red meat eaten",
+    "congrunent": "TRUE",
+    "uncertainty": 100
   },
   {
     "unit": "People",
     "X": "Height",
-    "Y": "College GPA"
+    "Y": "College GPA",
+    "congrunent": "FALSE",
+    "uncertainty": 100
   },
   {
     "unit": "Cities",
     "X": "Amount of rainfall",
-    "Y": "No. of sunny days"
+    "Y": "Number of sunny days",
+    "congrunent": "FALSE",
+    "uncertainty": 10
   },
   {
     "unit": "People",
-    "X": "Amount of TV watched",
-    "Y": "No. of books read"
+    "X": "Hours of TV watched in a month",
+    "Y": "Number of books read in a month",
+    "congrunent": "TRUE",
+    "uncertainty": 100
   },
   {
     "unit": "People",
-    "X": "No. traffic violations",
-    "Y": "Car insurance premium"
+    "X": "Number traffic violations",
+    "Y": "Car insurance premium",
+    "congrunent": "FALSE",
+    "uncertainty": 100
   },
   {
     "unit": "People",
-    "X": "Body weight",
-    "Y": "Daily caloric intake"
+    "X": "Daily caloric intake",
+    "Y": "Body weight",
+    "congrunent": "FALSE",
+    "uncertainty": 10
   },
   {
     "unit": "People",
     "X": "IQ",
-    "Y": "Income"
+    "Y": "Income",
+    "congrunent": "TRUE",
+    "uncertainty": 100
   },
   {
     "unit": "People",
-    "X": "Social media use",
-    "Y": "Avg. hours of sleep"
+    "X": "Avg. hours on social media",
+    "Y": "Avg. hours of sleep",
+    "congrunent": "FALSE",
+    "uncertainty": 10
   },
   {
     "unit": "People",
-    "X": "Social media use",
-    "Y": "Depression"
+    "X": "Avg. hours on social media",
+    "Y": "Depression severity",
+    "congrunent": "TRUE",
+    "uncertainty": 100
   },
   {
-    "unit": "Countries",
+    "unit": "Country",
     "X": "Per capita gun ownership",
-    "Y": "Shooting-related deaths"
+    "Y": "Shooting-related deaths",
+    "congrunent": "TRUE",
+    "uncertainty": 10
   },
   {
     "unit": "Years",
-    "X": "Avg. Carbon emissions",
-    "Y": "Increase in global temperature"
+    "X": "Annual carbon emissions",
+    "Y": "Global temperature increase",
+    "congrunent": "FALSE",
+    "uncertainty": 100
   },
   {
     "unit": "People",
-    "X": "GPA",
-    "Y": "Post-college income"
+    "X": "College GPA",
+    "Y": "Post-college income",
+    "congrunent": "TRUE",
+    "uncertainty": 10
   },
   {
-    "unit": "People",
+    "unit": "College graduates",
     "X": "SAT score",
-    "Y": "College GPA"
+    "Y": "College GPA",
+    "congrunent": "FALSE",
+    "uncertainty": 10
   },
   {
     "unit": "People",
     "X": "Years of education",
-    "Y": "Income"
-  },
-  {
-    "unit": "Countries",
-    "X": "Domestic violence incidence",
-    "Y": "Length of quarantine"
-  },
-  {
-    "unit": "Households",
-    "X": "Parental income",
-    "Y": "Children's SAT scores"
-  },
-  {
-    "unit": "Countries",
-    "X": "Meat consumption",
-    "Y": "Carbon emissions"
-  },
-  {
-    "unit": "Countries",
-    "X": "Minimum wage",
-    "Y": "Unemployment rate"
-  },
-  {
-    "unit": "People",
-    "X": "prison sentence duration",
-    "Y": "Rate of violent crime"
-  },
-  {
-    "unit": "Cities",
-    "X": "poverty rate",
-    "Y": "crime rate"
-  },
-  {
-    "unit": "Neighborhoods",
-    "X": "No. grocery stores",
-    "Y": "Median income"
-  },
-  {
-    "unit": "People",
-    "X": "Hours video game per week",
-    "Y": "Violence tendency"
-  },
-  {
-    "unit": "Cities",
-    "X": "No. pedestrians",
-    "Y": "No. Violent crimes"
-  },
-  {
-    "unit": "Countries",
-    "X": "No. religious population",
-    "Y": "racial diversity"
-  },
-  {
-    "unit": "Countries",
-    "X": "Total homless population",
-    "Y": "Total uninsured population"
-  },
-  {
-    "unit": "Countries",
-    "X": "Total homless population",
-    "Y": "Educational attainment"
+    "Y": "Income",
+    "congrunent": "FALSE",
+    "uncertainty": 100
   },
   {
     "unit": "Countries",
     "X": "Immigrant population",
-    "Y": "Crime rate"
+    "Y": "Number of Domestic violence incidents",
+    "congrunent": "TRUE",
+    "uncertainty": 100
+  },
+  {
+    "unit": "Household",
+    "X": "Parental income",
+    "Y": "Children's SAT scores",
+    "congrunent": "FALSE",
+    "uncertainty": 10
+  },
+  {
+    "unit": "Countries",
+    "X": "Yearly meat consumption",
+    "Y": "Yearly carbon emissions",
+    "congrunent": "FALSE",
+    "uncertainty": 100
+  },
+  {
+    "unit": "Countries",
+    "X": "Minimum wage",
+    "Y": "Unemployment rate",
+    "congrunent": "TRUE",
+    "uncertainty": 100
+  },
+  {
+    "unit": "People",
+    "X": "Crime severity",
+    "Y": "Prison sentence duration",
+    "congrunent": "FALSE",
+    "uncertainty": 10
+  },
+  {
+    "unit": "Cities",
+    "X": "Proportion of residents in poverty",
+    "Y": "Crime rate",
+    "congrunent": "TRUE",
+    "uncertainty": 10
+  },
+  {
+    "unit": "Cities",
+    "X": "Median income",
+    "Y": "Number of grocery stores",
+    "congrunent": "FALSE",
+    "uncertainty": 100
+  },
+  {
+    "unit": "People",
+    "X": "Hours playing video games",
+    "Y": "Aggression",
+    "congrunent": "TRUE",
+    "uncertainty": 10
+  },
+  {
+    "unit": "Cities",
+    "X": "Number of pedestrians",
+    "Y": "No. Violent crimes",
+    "congrunent": "FALSE",
+    "uncertainty": 100
+  },
+  {
+    "unit": "Countries",
+    "X": "Number of religious population",
+    "Y": "racial diversity",
+    "congrunent": "TRUE",
+    "uncertainty": 100
+  },
+  {
+    "unit": "Countries",
+    "X": "Homeless population",
+    "Y": "Uninsured population",
+    "congrunent": "FALSE",
+    "uncertainty": 100
+  },
+  {
+    "unit": "Countries",
+    "X": "Homeless population",
+    "Y": "Avg. education attainment",
+    "congrunent": "TRUE",
+    "uncertainty": 10
+  },
+  {
+    "unit": "Countries",
+    "X": "Immigrant population",
+    "Y": "Crime rate",
+    "congrunent": "FALSE",
+    "uncertainty": 10
   }
 ]
